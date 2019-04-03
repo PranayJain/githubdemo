@@ -3,8 +3,13 @@
   <parent>
     <groupId>com.acellere.corona</groupId>
     <artifactId>corona</artifactId>
-    <version>0.6.5-SNAPSHOT</version>
+    <version>0.6.5-SNAPSHOT</version> 	
   </parent>
+<packaging>pom</packaging>
   <artifactId>subproject3</artifactId>
   <name>subproject3</name>
+<modules>
+	<module>subproject4</module>
+
+</modules>
 </project>
